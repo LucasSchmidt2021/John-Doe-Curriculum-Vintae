@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ebecf0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+li{
+    list-style: none;
+    margin: 5px;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.mainDetails{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+
+.material-symbols-outlined {
+    font-size: 18px;
+    margin-left: 2px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 200,
+  'opsz' 10
+}
+
+a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.contactDetails{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    height: 100px;
+    margin-top: 20px;
+    background-color: #14232b;
+    color: #fff;
+}
+
+.mainArea{
+    margin-top: 40px;
+    padding:0 15px;
+}
+.mainAreaSection{
+
+    margin-top: 40px;
+}
+
+.sectionTitle{
+    margin: 10px 0;
+}
+
+.headshot img{
+    border-radius: 50%;
+    width: 180px;
+    border: 10px solid transparent;
+}
+.headshot{
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    border: 10px solid #14232b;
+}
+
+
+h2{
+    color: #14232b;
+}
